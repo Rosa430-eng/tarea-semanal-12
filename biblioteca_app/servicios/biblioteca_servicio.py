@@ -2,6 +2,7 @@ from modelos.libro import Libro
 from modelos.usuario import Usuario
 
 
+
 class BibliotecaServicio:
     """
     Contiene toda la lógica del negocio de la biblioteca.
@@ -154,4 +155,5 @@ class BibliotecaServicio:
             return
 
         for libro in libros:
+
             print(libro)
